@@ -1,0 +1,67 @@
+H2{
+    font-size: 30;
+    color: rgb(247, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    font-size: 50;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+} 
+.contenedor{
+    display: flex;
+}
+
+.boton{
+    display: inline-block;
+    background-color: rgb(104, 71, 223);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    transition: background-color 2s ease;
+    flex: 1;
+    font-size: 20px;
+}
+.boton:hover{
+    background-color: rgb(21, 101, 206);
+    color: rgba(255, 255, 255, 0.781);
+}
+h3{
+    font-size: 40px;
+    color: rgb(214, 27, 27);
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+    color: rgb(226, 210, 203);
+
+}
+.flex{
+    flex: 1;
+    text-align: center;
+}
+.imagen{
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 10px 10px;
+
+}
+.imagen:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    transform: scale(1.15);
+
+}
+h5{
+    font-size: 15px;
+    color: aliceblue;
+
+}
+
+    
+   
+
